@@ -1,0 +1,98 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Grilled Lemon Chicken",
+      "recipe_image": "https://i.ibb.co.com/fYywjJP/mark-deyoung-mjc-J0-FFgd-WI-unsplash.jpg",
+      "short_description": "A light and flavorful grilled chicken with a zesty lemon marinade.",
+      "ingredients": [
+        "550 g chicken breast",
+        "120 ml lemon juice",
+        "2 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tbsp fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Creamy Basil Pasta",
+      "recipe_image": "https://i.ibb.co.com/pZXJ3P1/mandy-bourke-Htb3-Neu9-Tmg-unsplash.jpg",
+      "short_description": "Rich, creamy pasta with fresh basil and Parmesan cheese.",
+      "ingredients": [
+        "400 g pasta",
+        "200 g basil leaves",
+        "100 ml heavy cream",
+        "50 g Parmesan cheese, grated",
+        "2 cloves garlic, minced",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 25,
+      "calories": 450
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Spicy Beef Tacos",
+      "recipe_image": "https://i.ibb.co.com/HFfgcrX/alex-munsell-Yr4n8-O-3-UPc-unsplash.jpg",
+      "short_description": "Tacos filled with spicy ground beef, fresh veggies, and salsa.",
+      "ingredients": [
+        "500 g ground beef",
+        "150 g taco shells",
+        "100 g lettuce, shredded",
+        "100 g cheddar cheese, grated",
+        "120 ml salsa",
+        "1 tsp chili powder",
+        "Salt to taste"
+      ],
+      "preparing_time": 20,
+      "calories": 380
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir-fry",
+      "recipe_image": "https://i.ibb.co.com/vBqNwWd/augustine-fou-ca-KJ7-Pwq-FBQ-unsplash.jpg",
+      "short_description": "A quick and healthy vegetable stir-fry with soy sauce and sesame oil.",
+      "ingredients": [
+        "200 g broccoli",
+        "150 g carrots, sliced",
+        "100 g bell peppers, sliced",
+        "120 ml soy sauce",
+        "2 tbsp sesame oil",
+        "1 tbsp ginger, minced",
+        "2 cloves garlic, minced"
+      ],
+      "preparing_time": 15,
+      "calories": 210
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Mushroom Risotto",
+      "recipe_image": "https://i.ibb.co.com/d72NVZq/jonas-kakaroto-zl-Kd-Ld-MREt-E-unsplash.jpg",
+      "short_description": "Creamy risotto made with mushrooms and Parmesan cheese.",
+      "ingredients": [
+        "400 g Arborio rice",
+        "200 g mushrooms, sliced",
+        "150 ml vegetable stock",
+        "50 g Parmesan cheese, grated",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": 35,
+      "calories": 460
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Avocado Toast",
+      "recipe_image": "https://i.ibb.co.com/R4M5H7z/anna-pelzer-Qc-UJLRMDry-Q-unsplash.jpg",
+      "short_description": "Simple and healthy avocado toast with a sprinkle of chili flakes.",
+      "ingredients": [
+        "2 slices whole wheat bread",
+        "1 avocado, mashed",
+        "1 tsp olive oil",
+        "1/2 tsp chili flakes",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 10,
+      "calories": 250
+    }
+  ]
