@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import RecipeCard from '../RecipeCard/RecipeCard';
 import CookingTable from '../CookingTable/CookingTable';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 const RecipeCards = () => {
@@ -28,42 +30,11 @@ const {preparing_time, calories} = food
         
      const cookFoods = [...preparingFoods, food]
      setPreparingFoods(cookFoods)
-    // console.log(cookFoods);
-
-
-
-
-
-
-        // let currentlyCookingFoods = []
-        // const cookFoods = recipes.filter(recipe => recipe.recipe_id === food.recipe_id)
-        // const currentlyCookingFoods = [...cookFoods]
-        // console.log(currentlyCookingFoods);
-
-
-        // const cookFoods = wantedFoods.filter(wantedFood => wantedFood.recipe_id === food.recipe_id)
-         
-        //  console.log(cookFoods);
-
-
-        // cookFoods.map(cookFood =>currentlyCookingFoods.push(cookFood))
-        // console.log(currentlyCookingFoods);
-         
-        // setPreparingFood(cookFood)
 
         const remainingFood = wantedFoods.filter(item => item.recipe_id !==  food.recipe_id);
        
             setWantedFoods(remainingFood);
- 
-
-     
-      
-        // const cookingFood = wantedFoods.filter(item => item.recipe_id ===  food.recipe_id);
-        // const currentCookingFood = [...cookingFood, food]
-        // setPreparingFood(currentCookingFood)
-        // console.log(preparingFood);
-
-        
+   
         
     }
 
@@ -75,12 +46,11 @@ const {preparing_time, calories} = food
             setWantedFoods([...wantedFoods, item]);
         }
         else{
-            alert('already added')
+            toast.warn('Already Exist')
         }
        
     }
 
- 
     
     useEffect(()=>{
         fetch('./recipe-data.json')
@@ -90,11 +60,11 @@ const {preparing_time, calories} = food
     return (
         <div className=' my-24 '>
             <div className='text-center'>
-            <h1 className='text-4xl font-semibold mb-0'>Our Recipes</h1>
+            <h1 className='text-2xl lg:text-4xl font-semibold mb-0'>Our Recipes</h1>
             <p className='text-gray-500 mt-6 mb-12 lg:w-[820px] mx-auto'>Cooking is the art of transforming simple ingredients into delicious, nourishing meals. Its a joyful, creative process that brings people together around the table.</p>
             </div>
             {/* lower part container */}
-            <div className='flex justify-between gap-5'>
+            <div className='flex flex-col lg:flex-row justify-between gap-5'>
 
                 {/* cards container */}
                 <div className='lg:w-3/5 grid grid-cols-1 md:grid-cols-2 gap-5'>

@@ -7,7 +7,7 @@ import LowerTable from '../LowerTable/LowerTable';
 const CookingTable = ({wantedFoods, handlePreparing ,preparingFoods, totalTimes, totalCalories}) => {
     
     return (
-        <div className='rounded-2xl border-2 px-2 pb-6'>
+        <div className='rounded-2xl border-2 lg:px-2 pb-6'>
             {/* upper part */}
             <UpperTable wantedFoods ={wantedFoods} handlePreparing ={handlePreparing}></UpperTable>
             
