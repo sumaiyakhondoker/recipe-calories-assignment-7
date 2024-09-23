@@ -2,7 +2,7 @@ import { HiMagnifyingGlass } from "react-icons/hi2";
 import { FaRegCircleUser } from "react-icons/fa6";
 const Header = () => {
     return (
-        <header className="max-w-7xl mx-auto">
+        <header className="max-w-[1320px] mx-auto">
  <div className="navbar flex justify-between items-center bg-base-100">
   <div className="">
     <div className="dropdown">
